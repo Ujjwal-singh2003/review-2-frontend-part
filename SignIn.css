@@ -1,0 +1,77 @@
+:root {
+    --violet: rgb(118, 66, 250);
+    --violetHover: rgb(85, 53, 166);
+}
+/* overall div for the form */
+.create-account{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    width: 100%;
+}
+
+/* div containing label and input for each*/
+.div_email, .div_password {
+    font-weight: bold;
+    font-size: 150%; 
+}
+
+/* input */
+#email, #password{
+    border: solid 1px;
+    border-radius: 3px;
+    width: 20%;
+    padding: 1% 6px;
+}
+
+.SignIn-button{
+    color: var(--white); 
+    background-color: var(--violet);
+    border-color: var(--violet);
+    border: solid 1px;
+    border-radius: 4rem;
+    width: 28%;
+    font-size: medium;
+    padding: 1% 5%;
+    cursor: pointer;
+}
+
+.SignIn-button:hover {
+    color: white;
+    background-color: var(--violetHover); 
+}
+
+#remember{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+p a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.SignUp_option{
+    font-size: 1.4rem;
+}
+
+.SignUp_option a:hover{
+    text-decoration: underline;
+    color: var(--green);
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: medium;
+}
+
+

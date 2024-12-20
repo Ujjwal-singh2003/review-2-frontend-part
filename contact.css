@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Nunito:wght@200;400;600&display=swap');
+
+:root {
+    
+    --space: rgba(239, 234, 230, 0.856);
+    --font: 'Acme', sans-serif,'Nunito', sans-serif;
+    --deepgreen: #063e06;
+    --head: rgba(255, 141, 1, 0.856);
+}
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/contact1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contact-header {
+    padding: 6px;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#name, #email, #phone, #subject{
+    background-color: var(--space);
+    font-family: var(--font);
+    padding: 12px;
+    width: 17%;
+}
+
+#name:hover, #phone:hover{
+    border-radius: 0 0 0 12px;
+    border-bottom: solid #b9b9b9;
+    border-left: solid #b9b9b9;
+    box-shadow: 0 0 5px #b9b9b9;
+}
+
+#email:hover, #subject:hover{
+    border-radius: 0 0 12px 0;
+    border-bottom: solid #b9b9b9;
+    border-right: solid #b9b9b9;
+    box-shadow: 0 0 5px #b9b9b9;
+}
+
+#message{
+    background-color: var(--space);
+    font-family: var(--font);
+}
+
+#message:hover{
+    border-radius: 2px;
+    border-bottom: solid #b9b9b9;
+    border-left: solid #b9b9b9;
+    border-right: solid #b9b9b9;
+    box-shadow: 0 0 5px #b9b9b9;
+}
+
+.send-messagae-button{
+    background-color: var(--orange);
+    color: black;
+    border: 1px solid  var(--orange);
+    border-radius: 5%;
+    padding: 10px;
+    width: 12%;   
+}
+
+.send-messagae-button:hover{
+    background-color: #ff8119;
+    color: black;
+    box-shadow: 0 0 5px #8a4105;
+}
+
+.image{
+    position: absolute;
+    margin-left: 50px;
+}

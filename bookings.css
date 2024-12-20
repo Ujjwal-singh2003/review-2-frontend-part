@@ -1,0 +1,16 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    
+}
+
+main{
+    background-image: url(/img/message.jpg);
+}
+
+.bookings-header {
+    padding: 6px;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+

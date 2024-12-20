@@ -1,0 +1,79 @@
+:root {
+    --violet: rgb(118, 66, 250);
+    --violetHover: rgb(85, 53, 166);
+}
+
+*{
+    margin: 0;padding: 0;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: medium;
+}
+/* overall div for the form */
+.create-account{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger; 
+}
+/* div containing label and input for each*/
+.div_username, .div_phone, .div_email, .div_password {
+    font-weight: bold; 
+    font-size: 150%;  
+} 
+
+/* input */
+#username, #phone, #email, #password {
+    border: solid 1px;
+    border-radius: 3px;
+    width: 20%;
+    padding: 1% 6px;
+}
+
+.SignUp-button{
+    color: var(--white); 
+    background-color: var(--violet);
+    border-color: var(--violet);
+    border: solid 1px;
+    border-radius: 4rem;
+    width: 28%;
+    font-size: medium;
+    padding: 1% 5%;
+}
+
+.SignUp-button:hover {
+    color: white;
+    background-color: var(--violetHover); 
+    box-shadow: 0 0 5px #858484;
+}
+
+.SignIn_option{
+    font-size: 1.4em;
+}
+
+.SignIn_option a:hover{
+    text-decoration: none;
+    color: var(--green);
+}
+
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
